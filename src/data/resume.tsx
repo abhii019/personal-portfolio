@@ -258,25 +258,25 @@ export const DATA = {
         },
       ],
     },
-    // {
-    //   title: "Summer Immersion Participant",
-    //   dates: "July 2024",
-    //   location: "FPT University, Da Nang, Vietnam",
-    //   description:
-    //     "Participated in a 10-day fully funded Summer Immersion Programme in Vietnam hosted by FPT University, providing rich insights into Vietnamese culture from a entrepreneurship and technological point of view.",
-    //   image:
-    //     "https://upload.wikimedia.org/wikipedia/commons/2/2f/Logo_fpt_university.jpg",
-    //   links: [
-    //     {
-    //       title: "Website",
-    //       href: "https://international.fpt.edu.vn/",
-    //     },
-    //     {
-    //       title: "Photos",
-    //       href: "https://www.linkedin.com/posts/bennett-university_bennettuniversity-globalexposure-entrepreneurshipjourney-ugcPost-7232006796473683968-tKMa?utm_source=share&utm_medium=member_desktop",
-    //     },
-    //   ],
-    // },
+    {
+      title: "Summer Immersion Participant",
+      dates: "July 2024",
+      location: "FPT University, Da Nang, Vietnam",
+      description:
+        "Participated in a 10-day fully funded Summer Immersion Programme in Vietnam hosted by FPT University, providing rich insights into Vietnamese culture from a entrepreneurship and technological point of view.",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/2/2f/Logo_fpt_university.jpg",
+      links: [
+        {
+          title: "Website",
+          href: "https://international.fpt.edu.vn/",
+        },
+        {
+          title: "Photos",
+          href: "https://www.linkedin.com/posts/bennett-university_bennettuniversity-globalexposure-entrepreneurshipjourney-ugcPost-7232006796473683968-tKMa?utm_source=share&utm_medium=member_desktop",
+        },
+      ],
+    },
     {
       title: "Technical Co-Head",
       dates: "August 2023 - May 2024",
@@ -297,21 +297,21 @@ export const DATA = {
         },
       ],
     },
-      // {
-      //   title: "Rearch Content Management",
-      //   dates: "September 2022 - May 2023",
-      //   location: "Bennett Undergraduate Research Society (BURS)",
-      //   description:
-      //     "The research society peaked my interest in the field of research, allowing me to be guided by seniors to work on various research related projects as well as organizing events like Rescon.",
-      //   image: "/burs.png",
-      //   links: [
-      //     { title: "Website", href: "https://www.burs.bennett.edu.in/" },
-      //     {
-      //       title: "LinkedIn",
-      //       href: "https://www.linkedin.com/company/buresearchsociety/posts/?feedView=all/",
-      //     },
-      //   ],
-      // },
+      {
+        title: "Rearch Content Management",
+        dates: "September 2022 - May 2023",
+        location: "Bennett Undergraduate Research Society (BURS)",
+        description:
+          "The research society peaked my interest in the field of research, allowing me to be guided by seniors to work on various research related projects as well as organizing events like Rescon.",
+        image: "/burs.png",
+        links: [
+          { title: "Website", href: "https://www.burs.bennett.edu.in/" },
+          {
+            title: "LinkedIn",
+            href: "https://www.linkedin.com/company/buresearchsociety/posts/?feedView=all/",
+          },
+        ],
+      },
   ],
   achievements: [
     {
@@ -320,30 +320,30 @@ export const DATA = {
       location: "DYPIEMR TECHFEST",
       image: "/achievements/summer-immersion.jpeg",
     },
-    // {
-    //   title: "Github Constellation",
-    //   dates: "June 2024",
-    //   location: "Bangalore",
-    //   image: "/achievements/github-constellation.jpeg",
-    // },
+    {
+      title: "Github Constellation",
+      dates: "June 2024",
+      location: "Bangalore",
+      image: "/achievements/github-constellation.jpeg",
+    },
  
-    // {
-    //   title: "HackWithDelhi",
-    //   dates: "April 2024",
-    //   location: "GL Bajaj Institute of Technology and Management",
-    //   image: "/achievements/hackwithdelhi.jpeg",
-    // },
-    // {
-    //   title: "HackCBS",
-    //   dates: "November 2023",
-    //   location: "Shaheed Sukhdev College of Business Studies",
-    //   image: "/achievements/hackcbs.jpeg",
-    // },
-    // {
-    //   title: "Luminous TechnoX Hackathon",
-    //   dates: "December 2023",
-    //   location: "Taj City Center, Gurugram",
-    //   image: "/achievements/luminous.jpg",
-    // },
+    {
+      title: "HackWithDelhi",
+      dates: "April 2024",
+      location: "GL Bajaj Institute of Technology and Management",
+      image: "/achievements/hackwithdelhi.jpeg",
+    },
+    {
+      title: "HackCBS",
+      dates: "November 2023",
+      location: "Shaheed Sukhdev College of Business Studies",
+      image: "/achievements/hackcbs.jpeg",
+    },
+    {
+      title: "Luminous TechnoX Hackathon",
+      dates: "December 2023",
+      location: "Taj City Center, Gurugram",
+      image: "/achievements/luminous.jpg",
+    },
   ],
 } as const;
