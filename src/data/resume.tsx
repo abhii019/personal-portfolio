@@ -2,6 +2,7 @@ import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon, Play } from "lucide-react";
 import { DiPostgresql } from "react-icons/di";
 import { FaDocker, FaNodeJs, FaPython } from "react-icons/fa";
+
 import { SiAppwrite, SiKubernetes } from "react-icons/si";
 
 export const DATA = {
@@ -11,10 +12,10 @@ export const DATA = {
   location: "Pune, India",
   locationLink: "https://maps.app.goo.gl/N856FibcPBczxdJf9",
   description:
-    "A developer building cool solutions with open source technologies.",
+    "A developer building cool solutions with trending technologies.",
   summary:
-    "I am **Prajwal Gadhave**, a final-year Bachelor of Engineering student in Computer Science with a **9.64 CGPA**. I am primarily a **Full Stack Engineer** with extensive experience in both frontend and backend technologies, including Next.js, TypeScript, and various DevOps tools. I have practical experience as a **Generative AIOps Intern** and a **Software Development Intern**, where I successfully automated deployment pipelines, redesigned website architectures, and significantly improved performance and user engagement metrics.",
-  avatarUrl: "/me.jpeg",
+    "I am **Abhishek Yergude**, a final-year Bachelor of Engineering student in Computer Science with a **8.79 CGPA**. I am primarily a **Full Stack Engineer** with extensive experience in both frontend and backend technologies, including Next.js, TypeScript, and various tools. I have practical experience as a **Frontend developer Intern**, where I have  successfully designed website , and significantly improved performance and user engagement metrics.",
+  avatarUrl: "/me.jpg",
   skills: [
     {
       name: "Next.js",
@@ -33,7 +34,7 @@ export const DATA = {
       icon: <FaPython className="size-3" />,
     },
     {
-      name: "Postgres",
+      name: "MySql",
       icon: <DiPostgresql className="size-3" />,
     },
     {
@@ -51,27 +52,27 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/blog", icon: NotebookIcon, label: "Blog" },
+    // { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
-    email: "prajwalgadhave356@gmail.com",
-    tel: "+91 7709027812",
+    email: "abhiyergude2002@gmail.com",
+    tel: "+91 7757924375",
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://github.com/prajwal-0706",
+        url: "https://github.com/abhii019",
         icon: Icons.github,
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/prajwal-gadhave/",
+        url: "https://www.linkedin.com/in/abhishek-yergude/",
         icon: Icons.linkedin,
         navbar: true,
       },
       email: {
         name: "Send Email",
-        url: "mailto:prajwalgadhave356@gmail.com",
+        url: "mailto:abhiyergude2002@gmail.com",
         icon: Icons.email,
         navbar: true,
       },
@@ -80,11 +81,11 @@ export const DATA = {
 
   work: [
     {
-      company: "LinuxWorld Informatics",
+      company: "Graprdawn",
       href: "https://www.lwindia.com/",
       badges: [],
       location: "On site",
-      title: "Generative AIOps Intern",
+      title: "Frontend Developer Intern",
       logoUrl: "/work-experience/lw.png",
       start: "June 2023",
       end: "December 2023",
@@ -141,14 +142,14 @@ export const DATA = {
         "Dr. D.Y. Patil Institute of Engineering, Management and Research",
       href: "https://www.dypiemr.ac.in/",
       degree:
-        "Bachelor's of Technology in Computer Science Engineering | 9.83 CGPA",
+        "Bachelor's of Technology in Computer Science Engineering | 8.79 CGPA",
       logoUrl: "/education/dyp.png",
       start: "2021",
       end: "2025",
     },
     {
       school:
-        "Vidya Pratishthan's Someshwar English Medium School & Jr. College",
+        "Shikshan Maharshi",
       href: "https://www.vpsomeshwar.org/",
       degree: "Senior Secondary | X - 80.8% | XII - 91.5%",
       logoUrl: "/education/vpsems.png",
@@ -244,12 +245,12 @@ export const DATA = {
   ],
   positions: [
     {
-      title: "Content Writer",
-      dates: "July 2024 - Present",
-      location: "GeeksForGeeks",
+      title: "President",
+      dates: "July 2024 - July 2025",
+      location: "Compsa",
       description:
-        "I like to write technical articles for GeeksForGeeks in my past time. Let's me be updated with various kinds of technologies.",
-      image: "/gfg.png",
+"As the President of COMPSA, I liked to organize events and activities in my free time. It kept me connected with people and the latest in technology."  ,
+    // image: "/gfg.png",
       links: [
         {
           title: "Contributions",
@@ -257,29 +258,29 @@ export const DATA = {
         },
       ],
     },
-    {
-      title: "Summer Immersion Participant",
-      dates: "July 2024",
-      location: "FPT University, Da Nang, Vietnam",
-      description:
-        "Participated in a 10-day fully funded Summer Immersion Programme in Vietnam hosted by FPT University, providing rich insights into Vietnamese culture from a entrepreneurship and technological point of view.",
-      image:
-        "https://upload.wikimedia.org/wikipedia/commons/2/2f/Logo_fpt_university.jpg",
-      links: [
-        {
-          title: "Website",
-          href: "https://international.fpt.edu.vn/",
-        },
-        {
-          title: "Photos",
-          href: "https://www.linkedin.com/posts/bennett-university_bennettuniversity-globalexposure-entrepreneurshipjourney-ugcPost-7232006796473683968-tKMa?utm_source=share&utm_medium=member_desktop",
-        },
-      ],
-    },
+    // {
+    //   title: "Summer Immersion Participant",
+    //   dates: "July 2024",
+    //   location: "FPT University, Da Nang, Vietnam",
+    //   description:
+    //     "Participated in a 10-day fully funded Summer Immersion Programme in Vietnam hosted by FPT University, providing rich insights into Vietnamese culture from a entrepreneurship and technological point of view.",
+    //   image:
+    //     "https://upload.wikimedia.org/wikipedia/commons/2/2f/Logo_fpt_university.jpg",
+    //   links: [
+    //     {
+    //       title: "Website",
+    //       href: "https://international.fpt.edu.vn/",
+    //     },
+    //     {
+    //       title: "Photos",
+    //       href: "https://www.linkedin.com/posts/bennett-university_bennettuniversity-globalexposure-entrepreneurshipjourney-ugcPost-7232006796473683968-tKMa?utm_source=share&utm_medium=member_desktop",
+    //     },
+    //   ],
+    // },
     {
       title: "Technical Co-Head",
       dates: "August 2023 - May 2024",
-      location: "Computer Society of India, Bennett University",
+      location: "Computer Society of India, DYPIEMR",
       description:
         "As the technical co-head of the CSI chapter of my university, I was responsible for organizing various events, workshops, and hackathons. I also mentored and guided students in their technical journey.",
       image:
@@ -296,58 +297,53 @@ export const DATA = {
         },
       ],
     },
-    {
-      title: "Rearch Content Management",
-      dates: "September 2022 - May 2023",
-      location: "Bennett Undergraduate Research Society (BURS)",
-      description:
-        "The research society peaked my interest in the field of research, allowing me to be guided by seniors to work on various research related projects as well as organizing events like Rescon.",
-      image: "/burs.png",
-      links: [
-        { title: "Website", href: "https://www.burs.bennett.edu.in/" },
-        {
-          title: "LinkedIn",
-          href: "https://www.linkedin.com/company/buresearchsociety/posts/?feedView=all/",
-        },
-      ],
-    },
+      // {
+      //   title: "Rearch Content Management",
+      //   dates: "September 2022 - May 2023",
+      //   location: "Bennett Undergraduate Research Society (BURS)",
+      //   description:
+      //     "The research society peaked my interest in the field of research, allowing me to be guided by seniors to work on various research related projects as well as organizing events like Rescon.",
+      //   image: "/burs.png",
+      //   links: [
+      //     { title: "Website", href: "https://www.burs.bennett.edu.in/" },
+      //     {
+      //       title: "LinkedIn",
+      //       href: "https://www.linkedin.com/company/buresearchsociety/posts/?feedView=all/",
+      //     },
+      //   ],
+      // },
   ],
   achievements: [
     {
-      title: "Summer Immersion in Vietnam",
-      dates: "July 2024",
-      location: "FPT University, Da Nang, Vietnam",
+      title: "CodeQuest",
+      dates: "February 2024",
+      location: "DYPIEMR TECHFEST",
       image: "/achievements/summer-immersion.jpeg",
     },
-    {
-      title: "Github Constellation",
-      dates: "June 2024",
-      location: "Bangalore",
-      image: "/achievements/github-constellation.jpeg",
-    },
-    {
-      title: "Hackaccino",
-      dates: "April 2024",
-      location: "CSI Bennett University",
-      image: "/achievements/hackaccino.jpeg",
-    },
-    {
-      title: "HackWithDelhi",
-      dates: "April 2024",
-      location: "GL Bajaj Institute of Technology and Management",
-      image: "/achievements/hackwithdelhi.jpeg",
-    },
-    {
-      title: "HackCBS",
-      dates: "November 2023",
-      location: "Shaheed Sukhdev College of Business Studies",
-      image: "/achievements/hackcbs.jpeg",
-    },
-    {
-      title: "Luminous TechnoX Hackathon",
-      dates: "December 2023",
-      location: "Taj City Center, Gurugram",
-      image: "/achievements/luminous.jpg",
-    },
+    // {
+    //   title: "Github Constellation",
+    //   dates: "June 2024",
+    //   location: "Bangalore",
+    //   image: "/achievements/github-constellation.jpeg",
+    // },
+ 
+    // {
+    //   title: "HackWithDelhi",
+    //   dates: "April 2024",
+    //   location: "GL Bajaj Institute of Technology and Management",
+    //   image: "/achievements/hackwithdelhi.jpeg",
+    // },
+    // {
+    //   title: "HackCBS",
+    //   dates: "November 2023",
+    //   location: "Shaheed Sukhdev College of Business Studies",
+    //   image: "/achievements/hackcbs.jpeg",
+    // },
+    // {
+    //   title: "Luminous TechnoX Hackathon",
+    //   dates: "December 2023",
+    //   location: "Taj City Center, Gurugram",
+    //   image: "/achievements/luminous.jpg",
+    // },
   ],
 } as const;
