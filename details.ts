@@ -17,7 +17,7 @@
 //   avatarUrl: "/me.jpg",
 //   skills: [
 //     {
-//       name: "Next.js",
+//       name: "",
 //       icon: <Icons.nextjs className="size-3" />,
 //     },
 //     {

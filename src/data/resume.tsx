@@ -1,9 +1,9 @@
 import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon, Play } from "lucide-react";
 import { DiPostgresql } from "react-icons/di";
-import { FaDocker, FaNodeJs, FaPython } from "react-icons/fa";
+import { FaDocker, FaJava, FaNodeJs, FaPython } from "react-icons/fa";
 
-import { SiAppwrite, SiKubernetes } from "react-icons/si";
+import { SiAppwrite, SiFirebase, SiKubernetes } from "react-icons/si";
 
 export const DATA = {
   name: "Abhishek Yergude",
@@ -14,9 +14,13 @@ export const DATA = {
   description:
     "A developer building cool solutions with trending technologies.",
   summary:
-    "I am **Abhishek Yergude**, a final-year Bachelor of Engineering student in Computer Science with a **8.79 CGPA**. I am primarily a **Full Stack Engineer** with extensive experience in both frontend and backend technologies, including Next.js, TypeScript, and various tools. I have practical experience as a **Frontend developer Intern**, where I have  successfully designed website , and significantly improved performance and user engagement metrics.",
+    "I am **Abhishek Yergude**, a Bachelor of Engineering student in Computer Science with a **8.79 CGPA**. I am primarily a **Full Stack Engineer** with extensive experience in both frontend and backend technologies, including Next.js, TypeScript, and various tools. I have practical experience as a **Frontend developer Intern**, where I have  successfully designed website , and significantly improved performance and user engagement metrics.",
   avatarUrl: "/me.jpg",
   skills: [
+     {
+      name: "React.js",
+      icon: <Icons.react className="size-3" />,
+    },
     {
       name: "Next.js",
       icon: <Icons.nextjs className="size-3" />,
@@ -38,16 +42,13 @@ export const DATA = {
       icon: <DiPostgresql className="size-3" />,
     },
     {
-      name: "Docker",
-      icon: <FaDocker className="size-3" />,
+      name: "Java",
+      icon: <FaJava className="size-3" />,
     },
+  
     {
-      name: "Kubernetes",
-      icon: <SiKubernetes className="size-3" />,
-    },
-    {
-      name: "Appwrite",
-      icon: <SiAppwrite className="size-3" />,
+      name: "Firebase",
+      icon: <SiFirebase className="size-3" />,
     },
   ],
   navbar: [
@@ -90,51 +91,51 @@ export const DATA = {
       start: "June 2023",
       end: "December 2023",
       description: [
-        "- Joined LinuxWorld Informatics as a **Generative AIOps Intern** in June, 2023.",
+        "- Joined Grapedawn as a **Frontend development Intern** in March, 2023.",
         "-----",
-        "- Managed an AWS-based platform to **automate the creation and deployment of Dockerfiles to GitHub**, reducing deployment time by 50%.",
-        "- Designed and deployed 4 stages from **AI-powered CI/CD pipeline** that automates code deployments to EKS triggered by GitHub events, minimizing common deployment errors.",
-        "- Collaborated in a cross-functional team to integrate Generative AI technologies, increasing **successful code deployments** by 25% in the first quarter.",
+        "- Built scalable web applications using React Js, enhancing overall performance and user experience by 25%.",
+        "- Improved user retention by 20% through the implementation of responsive design and optimized navigation.",
+        "- Improved user retention by 20% through the implementation of responsive design and optimized navigation.",
       ],
-      links: [
-        {
-          type: "Website",
-          href: "https://www.lwindia.com/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Confirmation Letter",
-          href: "https://drive.google.com/file/d/1CYnQCQz1kKd4DhnwDVK5k0gu1g_FV6WJ/view?usp=sharing",
-          icon: <Icons.googleDrive className="size-3" />,
-        },
-      ],
+      // links: [
+      //   {
+      //     type: "Website",
+      //     href: "https://www.lwindia.com/",
+      //     icon: <Icons.globe className="size-3" />,
+      //   },
+      //   {
+      //     type: "Confirmation Letter",
+      //     href: "https://drive.google.com/file/d/1CYnQCQz1kKd4DhnwDVK5k0gu1g_FV6WJ/view?usp=sharing",
+      //     icon: <Icons.googleDrive className="size-3" />,
+      //   },
+      // ],
     },
-    {
-      company: "Turing Techlabs",
-      href: "https://turingtechlabs.com/",
-      badges: [],
-      location: "Remote",
-      title: "Frontend Developer",
-      logoUrl: "/work-experience/turing.png",
-      start: "March 2022",
-      end: "September 2022",
-      description: [
-        "- Coordinated with Turing Techlabs to design and deliver an amazing website for a Hospital",
-        "- ShreeArogyam Ayu: Created a fully customized **React-based website**, enhancing the online presence of client's business",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://turingtechlabs.com/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Letter of Recommendation",
-          href: "https://drive.google.com/file/d/1ONCudngptfuLZuR7hjSinbvVSr7fEnbd/view?usp=sharing",
-          icon: <Icons.email className="size-3" />,
-        },
-      ],
-    },
+      // {
+      //   company: "Turing Techlabs",
+      //   href: "https://turingtechlabs.com/",
+      //   badges: [],
+      //   location: "Remote",
+      //   title: "Frontend Developer",
+      //   logoUrl: "/work-experience/turing.png",
+      //   start: "March 2022",
+      //   end: "September 2022",
+      //   description: [
+      //     "- Coordinated with Turing Techlabs to design and deliver an amazing website for a Hospital",
+      //     "- ShreeArogyam Ayu: Created a fully customized **React-based website**, enhancing the online presence of client's business",
+      //   ],
+      //   links: [
+      //     {
+      //       type: "Website",
+      //       href: "https://turingtechlabs.com/",
+      //       icon: <Icons.globe className="size-3" />,
+      //     },
+      //     {
+      //       type: "Letter of Recommendation",
+      //       href: "https://drive.google.com/file/d/1ONCudngptfuLZuR7hjSinbvVSr7fEnbd/view?usp=sharing",
+      //       icon: <Icons.email className="size-3" />,
+      //     },
+      //   ],
+      // },
   ],
   education: [
     {
@@ -254,29 +255,29 @@ export const DATA = {
       links: [
         {
           title: "Contributions",
-          href: "https://www.geeksforgeeks.org/user/chiragaggarwal5k/contributions/",
+          href: "https://www.instagram.com/dypiemr_compsa/",
         },
       ],
     },
-    {
-      title: "Summer Immersion Participant",
-      dates: "July 2024",
-      location: "FPT University, Da Nang, Vietnam",
-      description:
-        "Participated in a 10-day fully funded Summer Immersion Programme in Vietnam hosted by FPT University, providing rich insights into Vietnamese culture from a entrepreneurship and technological point of view.",
-      image:
-        "https://upload.wikimedia.org/wikipedia/commons/2/2f/Logo_fpt_university.jpg",
-      links: [
-        {
-          title: "Website",
-          href: "https://international.fpt.edu.vn/",
-        },
-        {
-          title: "Photos",
-          href: "https://www.linkedin.com/posts/bennett-university_bennettuniversity-globalexposure-entrepreneurshipjourney-ugcPost-7232006796473683968-tKMa?utm_source=share&utm_medium=member_desktop",
-        },
-      ],
-    },
+    // {
+    //   title: "Summer Immersion Participant",
+    //   dates: "July 2024",
+    //   location: "FPT University, Da Nang, Vietnam",
+    //   description:
+    //     "Participated in a 10-day fully funded Summer Immersion Programme in Vietnam hosted by FPT University, providing rich insights into Vietnamese culture from a entrepreneurship and technological point of view.",
+    //   image:
+    //     "https://upload.wikimedia.org/wikipedia/commons/2/2f/Logo_fpt_university.jpg",
+    //   links: [
+    //     {
+    //       title: "Website",
+    //       href: "https://international.fpt.edu.vn/",
+    //     },
+    //     {
+    //       title: "Photos",
+    //       href: "https://www.linkedin.com/posts/bennett-university_bennettuniversity-globalexposure-entrepreneurshipjourney-ugcPost-7232006796473683968-tKMa?utm_source=share&utm_medium=member_desktop",
+    //     },
+    //   ],
+    // },
     {
       title: "Technical Co-Head",
       dates: "August 2023 - May 2024",
@@ -285,33 +286,33 @@ export const DATA = {
         "As the technical co-head of the CSI chapter of my university, I was responsible for organizing various events, workshops, and hackathons. I also mentored and guided students in their technical journey.",
       image:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGnicMMBfXdQJrZy9RvzmnhzvVw1bgLTs_qA&s",
-      links: [
-        { title: "Website", href: "https://csiindia.org/" },
-        {
-          title: "LinkedIn",
-          href: "https://www.linkedin.com/company/csi-india/",
-        },
-        {
-          title: "Welcome Letter",
-          href: "https://www.linkedin.com/posts/chiragagg5k_newrole-bennettuniversity-technology-activity-7097467074863636480-M1q6",
-        },
-      ],
+      // links: [
+      //   { title: "Website", href: "https://csiindia.org/" },
+      //   {
+      //     title: "LinkedIn",
+      //     href: "https://www.linkedin.com/company/csi-india/",
+      //   },
+      //   {
+      //     title: "Welcome Letter",
+      //     href: "https://www.linkedin.com/posts/chiragagg5k_newrole-bennettuniversity-technology-activity-7097467074863636480-M1q6",
+      //   },
+      // ],
     },
-      {
-        title: "Rearch Content Management",
-        dates: "September 2022 - May 2023",
-        location: "Bennett Undergraduate Research Society (BURS)",
-        description:
-          "The research society peaked my interest in the field of research, allowing me to be guided by seniors to work on various research related projects as well as organizing events like Rescon.",
-        image: "/burs.png",
-        links: [
-          { title: "Website", href: "https://www.burs.bennett.edu.in/" },
-          {
-            title: "LinkedIn",
-            href: "https://www.linkedin.com/company/buresearchsociety/posts/?feedView=all/",
-          },
-        ],
-      },
+      // {
+      //   title: "Rearch Content Management",
+      //   dates: "September 2022 - May 2023",
+      //   location: "Bennett Undergraduate Research Society (BURS)",
+      //   description:
+      //     "The research society peaked my interest in the field of research, allowing me to be guided by seniors to work on various research related projects as well as organizing events like Rescon.",
+      //   image: "/burs.png",
+      //   links: [
+      //     { title: "Website", href: "https://www.burs.bennett.edu.in/" },
+      //     {
+      //       title: "LinkedIn",
+      //       href: "https://www.linkedin.com/company/buresearchsociety/posts/?feedView=all/",
+      //     },
+      //   ],
+      // },
   ],
   achievements: [
     {

@@ -90,7 +90,7 @@ export default function Page() {
                   badges={work.badges}
                   period={`${work.start} - ${work.end ?? "Present"}`}
                   description={work.description}
-                  links={work.links}
+                  // links={work.links}
                 />
               </BlurFade>
             ))}
@@ -118,7 +118,7 @@ export default function Page() {
             ))}
           </div>
         </section>
-        <section id="skills">
+        <section id="">
           <div className="flex min-h-0 flex-col gap-y-3">
             <BlurFade delay={BLUR_FADE_DELAY * 9}>
               <h2 className="text-xl font-bold">Skills</h2>
@@ -131,7 +131,7 @@ export default function Page() {
                 >
                   <Badge
                     key={skill.name}
-                    className={`hover:cursor-default transition-all duration-300 ease-in-out ${skill.name === "Appwrite" ? "hover:bg-[#FF1F5E] hover:text-white" : ""}`}
+                    // className={`hover:cursor-default transition-all duration-300 ease-in-out ${skill.name === "Appwrite" ? "hover:bg-[#FF1F5E] hover:text-white" : ""}`}
                   >
                     <span className="mr-2">{skill.icon}</span>
                     {skill.name}
@@ -208,8 +208,8 @@ export default function Page() {
                       description={position.description}
                       location={position.location}
                       dates={position.dates}
-                      image={position.image}
-                      links={position.links}
+                      // image={position.image}
+                      // links={position.links}
                     />
                   </BlurFade>
                 ))}
@@ -217,7 +217,7 @@ export default function Page() {
             </BlurFade>
           </div>
         </section>
-        <section id="achievements">
+        {/* <section id="achievements">
           <div className="space-y-12 w-full py-12">
             <BlurFade delay={BLUR_FADE_DELAY * 13}>
               <div className="flex flex-col items-center justify-center space-y-4 text-center">
@@ -252,7 +252,7 @@ export default function Page() {
               <div className="pointer-events-none absolute inset-y-0 right-0 w-1/6 bg-gradient-to-l from-white dark:from-background"></div>
             </BlurFade>
           </div>
-        </section>
+        </section> */}
         <section id="contact">
           <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
             <BlurFade delay={BLUR_FADE_DELAY * 16}>
